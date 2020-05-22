@@ -176,4 +176,4 @@ tx_hash = Greeter.constructor().transact()
 tx_receipt = w3.eth.waitForTransactionReceipt(tx_hash)
 greeter = w3.eth.contract(address=tx_receipt.contractAddress, abi=abi)
 
-tx_hash = greeter.functions.rentOutproperty('Jay Heights','1 BHK', 25000).transact()
+tx_hash = greeter.functions.rentOutproperty('Awesome Heights','1 BHK', 25000).transact()
